@@ -1,0 +1,61 @@
+.header-image-background{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: hsla(192, 100%, 96%, 0.538);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .header-logo-button{
+        width: 80%;
+        margin: 0 10%;
+        display: flex;
+        gap: 800px;
+        margin-top: 10px;
+        .header-logo{
+            padding: 5px;  
+        }
+        .header-button{
+            width: 120%;
+            
+            button{
+                margin-top: 2px;
+                width: 120%;
+                padding: 18px;
+                border-radius: 50px;
+                border: 1px solid lightgray;
+            }
+        }
+    }
+    .header-information{
+        width: 80%;
+        margin: 0 10%;
+        display: flex;
+        margin-top: 70px;
+        .info-one{
+            width: 40%;
+            h1{
+                padding-top: 120px;
+                font-size: 45px;
+                justify-content: space-between;
+            }
+            p{
+                padding-top: 25px;
+                font-size: 16px;
+            }
+            button{
+                border: 1px solid pink;
+                border-radius: 30px;
+                padding: 18px;
+                width: 50%;
+                margin-top: 25px;
+                background: pink;
+            }
+        }
+        .info-two{
+            width: 40%;
+            img{
+                width: 150%;
+            }
+        }
+    }
+}
